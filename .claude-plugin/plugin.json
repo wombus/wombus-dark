@@ -1,0 +1,25 @@
+{
+  "name": "wombus-dark",
+  "version": "1.0.0",
+  "description": "Wombus Dark: a dark-mode mission control for Claude Code: live task board, usage dashboard, the Claude crab, rainbow typing, and an optional decision log.",
+  "author": { "name": "wombus" },
+  "homepage": "https://github.com/wombus/wombus-dark",
+  "repository": "https://github.com/wombus/wombus-dark",
+  "license": "MIT",
+  "keywords": ["theme", "dark-mode", "task-board", "dashboard", "mod"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "decisionLog": {
+      "type": "boolean",
+      "title": "Decision log",
+      "description": "Keep a cross-project log of decisions, fixes and milestones, with a pick-up banner and /log, /decisions, /wrap.",
+      "default": false
+    },
+    "logDatabase": {
+      "type": "string",
+      "title": "Decision log database",
+      "description": "Where the decision log lives (a SQLite file; created if missing).",
+      "default": "~/.claude/wombus-dark/decisions.db"
+    }
+  }
+}

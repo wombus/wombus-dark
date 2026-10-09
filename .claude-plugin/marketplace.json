@@ -1,0 +1,6 @@
+{
+  "name": "wombus-dark",
+  "owner": { "name": "wombus" },
+  "description": "Wombus Dark, a mod for Claude Code.",
+  "plugins": [{ "name": "wombus-dark", "source": "./", "description": "A dark-mode mission control for Claude Code." }]
+}
